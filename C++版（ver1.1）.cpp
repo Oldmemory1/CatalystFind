@@ -25,17 +25,7 @@ LinkNode* GenerateList(){
 						TempLink1=Link;
 						TempLink1->Before=NULL;
 						TempLink1->NextLink=NULL;
-					}/*else if(num1==6&&num2==6&&num3==6&&num4==6){
-						LinkNode* Link=new LinkNode;
-						Link->data[0]=num1;
-						Link->data[1]=num2;
-						Link->data[2]=num3;
-						Link->data[3]=num4;
-						TempLink1->NextLink=Link;
-						Link->Before=TempLink1;
-						TempLink1=TempLink1->NextLink;
-						TempLink1->NextLink=NULL;
-					}*/else{
+					}else{
 						LinkNode* Link=new LinkNode;
 						Link->data[0]=num1;
 						Link->data[1]=num2;
