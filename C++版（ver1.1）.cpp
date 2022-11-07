@@ -1,6 +1,7 @@
 #include<cstdio>
 #include<iostream>
 #include<cstdlib>
+#include<windows.h> 
 using namespace std;
 struct LinkNode{
 	int data[4];
@@ -173,5 +174,6 @@ int main(){
             free(Head);
 		}    	
 	}
+	system("pause");
 	return 0;
 }
